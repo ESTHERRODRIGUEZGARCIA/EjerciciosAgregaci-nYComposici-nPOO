@@ -9,8 +9,9 @@ class Empresa(): #
     pass
 
 class Ciudad():
-    def NY():
-        global A, B
+    pass
 
-    def LA():
-        global C
+class NewYork():
+    def __del__(self):
+        print("")
+
