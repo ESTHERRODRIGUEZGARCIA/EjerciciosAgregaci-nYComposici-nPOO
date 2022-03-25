@@ -5,6 +5,8 @@ class Yang:
  
 yin = Yin() 
 yang = Yang() 
-yin.yang = yang 
+yin.yang = yang #eliminar
  
 print(yang) 
+del(yang) 
+print("?") 
