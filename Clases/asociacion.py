@@ -1,7 +1,7 @@
 casa = {}
 orientaciones = ['NORTE', 'SUR', 'ESTE', 'OESTE']
 
-class Casa():
+class interfaz_cristal():
   global casa
   def Paredes(self, orientacion):
     for i in range(len(orientacion)):
@@ -10,7 +10,7 @@ class Casa():
           'ventanas': {},
       }
     print(casa)
-    Casa().Ventanas([['NORTE', 0.5, ''], ['SUR', 1, ''], ['ESTE', 2, ''], ['OESTE', 1, '']])
+    interfaz_cristal().Ventanas([['NORTE', 0.5, ''], ['SUR', 1, ''], ['ESTE', 2, ''], ['OESTE', 1, '']])
   def Ventanas(self, ventanas):
     dimensiones = []
     for i in range(len(ventanas)):
@@ -21,7 +21,7 @@ class Casa():
       }
       dimensiones.append(ventanas[i][1])  
     print(casa)
-    Casa().Superficie()
+    interfaz_cristal().Superficie()
   def Superficie(self):
     total = 0
     for i in range(len(orientaciones)):
