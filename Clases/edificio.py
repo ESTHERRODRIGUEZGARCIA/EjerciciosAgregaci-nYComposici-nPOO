@@ -13,5 +13,10 @@ class Ciudad():
 
 class NewYork():
     def __del__(self):
-        print("")
+        print("Destrucción edificio de Nueva York.")
+
+class LosAngeles():
+    def __del__(self):
+        print("Destrucción edificio de LosÁngeles.")
+
 
