@@ -1,6 +1,16 @@
 # al día siguiente:
+class elementos():
+    ciudad = str(input("¿Qué ciudad quiere que sea destrozada, NY / LA? "))
+    edificios = ["A", "B", "C"]
+    empleados = ["Martin", "Salim", "Sra. Xing"]
 class Edificio():
-    pass
+    def edificioA():
+        print("Edificio A. New York")
+    def edificioB():
+        print("Edificio B. New York. ")
+    def edificioC():
+        print("Edificio C. Los Ángeles.")
+        
 
 class Empleado():
     pass
