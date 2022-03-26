@@ -1,8 +1,8 @@
 # al día siguiente:
 class elementos():
     ciudad = str(input("¿Qué ciudad quiere que sea destrozada, NY / LA? "))
-    edificios = ["A", "B", "C"]
-    empleados = ["Martin", "Salim", "Sra. Xing"]
+    edificios = ["A", "B", "C"] # añadir destruidos
+    empleados = ["Martin", "Salim", "Sra. Xing"] #añadir muertos
 class Edificio():
     def edificioA():
         print("Edificio A. New York")
