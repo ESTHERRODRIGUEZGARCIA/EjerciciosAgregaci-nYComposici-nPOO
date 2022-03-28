@@ -1,5 +1,6 @@
 # al día siguiente:
 
+from time import sleep
 from numpy import append
 
 
