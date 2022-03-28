@@ -5,10 +5,10 @@ from numpy import append
 
 class ciudad():
 
-    def __init__(self, nombre, city) -> None:
-        self.empres = empresa(nombre)
+    def __init__(self, nombre_empresa, city, lista_empleados) -> None:
+        self.empres = empresa(nombre_empresa, lista_empleados)
         self.city = city
-        
+
 
 class empresa():
     def __init__(self, nombre_empresa, lista_empleados) -> None: #constructor
