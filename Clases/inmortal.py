@@ -8,5 +8,7 @@ yang = Yang()
 yin.yang = yang #eliminar
  
 print(yang) 
+del(yin.yang)
 del(yang) 
+
 print("?") 
