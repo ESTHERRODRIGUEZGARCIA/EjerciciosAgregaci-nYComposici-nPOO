@@ -1,21 +1,16 @@
 # al día siguiente:
-class elementos():
-    ciudad = str(input("¿Qué ciudad quiere que sea destrozada, NY / LA? "))
-    edificios = ["A", "B", "C"] # añadir destruidos
-    empleados = ["Martin", "Salim", "Sra. Xing"] #añadir muertos
-class Edificio():
-    def edificioA():
-        print("Edificio A. New York")
-    def edificioB():
-        print("Edificio B. New York. ")
-    def edificioC():
-        print("Edificio C. Los Ángeles.")
-        
 
+ciudad = str(input("¿Qué ciudad quiere que sea destrozada, NY / LA? "))
+edificios = ["A", "B", "C"] # añadir destruidos
+empleados = ["Martin", "Salim", "Sra. Xing"] #añadir muertos
+class Edificio():
+    def __init__(self, nombre, numero_plantas) -> None:
+        self.n = nombre
+        self.plantas = numero_plantas
 class Empleado():
     pass
 
-class Empresa(): # 
+class Empresa(): #
     pass
 
 class Ciudad():
@@ -30,3 +25,7 @@ class LosAngeles():
         print("Destrucción edificio de LosÁngeles.")
 
 
+edificio = Edificio("hola", 23)
+edificio.getNombre()
+edificio.n = "res"
+edificio.setNombre("res")
