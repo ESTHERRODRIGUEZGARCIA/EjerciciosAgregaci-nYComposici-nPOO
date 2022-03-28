@@ -8,10 +8,16 @@ class ciudad():
     def __init__(self, nombre, city) -> None:
         self.empres = empresa(nombre)
         self.city = city
+        
 
 class empresa():
-    def __init__(self, nombre) -> None: #constructor
-        self.nombre = nombre
+    def __init__(self, nombre_empresa, lista_empleados) -> None: #constructor
+        self.nombre_empresa = nombre_empresa
+        self.lista_empleados = []
+
+        for i in lista_empleados:
+            empleado = empleados(i)
+            self.lista_empleados.append(empleado)
 
 
 
@@ -23,7 +29,4 @@ class empleados():
 
 emp = empresa("YooHoo")
 lista_empleados = ["Martin", "Salim"]
-lista = []
-for nombre in lista_empleados:
-    empleado = empleados(nombre)
-    lista.append(empleado)
+
