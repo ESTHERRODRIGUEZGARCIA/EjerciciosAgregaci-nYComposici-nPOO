@@ -3,18 +3,20 @@
 from numpy import append
 
 
-class empresa():
-    def __init__(self, nombre) -> None: #constructor
-        self.nombre = nombre
-
-
-class edificio():
-    pass
-
 class ciudad():
+    class empresa():
+        def __init__(self, nombre) -> None: #constructor
+            self.nombre = nombre
 
+    def __init__(self, nombre) -> None:
+        self.empres = self.empresa(nombre)
 
     pass
+class edificio():
+
+    pass
+
+
 
 class empleados():
     def __init__(self, nombre) -> None:
