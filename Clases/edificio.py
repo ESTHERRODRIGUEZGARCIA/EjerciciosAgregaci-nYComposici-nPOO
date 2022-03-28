@@ -18,6 +18,9 @@ class empresa():
         for i in lista_empleados:
             empleado = empleados(i)
             self.lista_empleados.append(empleado)
+    def getempleados(self):
+        for i in self.lista_empleados:
+            print(i)
 
 
 
