@@ -28,5 +28,6 @@ class empleados():
     pass
 
 emp = empresa("YooHoo")
-lista_empleados = ["Martin", "Salim"]
+lista_empleados = ["Martin", "Salim", "Xing"]
+LA = ciudad("C", "LA", lista_empleados)
 
