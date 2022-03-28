@@ -27,7 +27,9 @@ class empleados():
         self.nombre = nombre
     pass
 
-emp = empresa("YooHoo")
 lista_empleados = ["Martin", "Salim", "Xing"]
-LA = ciudad("C", "LA", lista_empleados)
+
+ciudad1 = ciudad("A", "NY1", lista_empleados)
+ciudad2 = ciudad("B", "NY2", lista_empleados)
+ciudad3 = ciudad("C", "LA", lista_empleados)
 
