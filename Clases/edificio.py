@@ -43,6 +43,4 @@ lista_ciudades = [ciudad1, ciudad2, ciudad3]
 
 ciudad_eliminada = str(input("¿Qué ciudad desea eliminar? LA NY1 NY2"))
 
-del (ciudad1)
-print(ciudad2.city)
-print(ciudad3.city)
+eliminarciudad(ciudad_eliminada)
