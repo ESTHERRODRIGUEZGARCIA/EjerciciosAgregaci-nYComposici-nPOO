@@ -4,17 +4,15 @@ from numpy import append
 
 
 class ciudad():
-    class empresa():
-        def __init__(self, nombre) -> None: #constructor
-            self.nombre = nombre
 
-    def __init__(self, nombre) -> None:
-        self.empres = self.empresa(nombre)
+    def __init__(self, nombre, city) -> None:
+        self.empres = empresa(nombre)
+        self.city = city
 
-    pass
-class edificio():
+class empresa():
+    def __init__(self, nombre) -> None: #constructor
+        self.nombre = nombre
 
-    pass
 
 
 
