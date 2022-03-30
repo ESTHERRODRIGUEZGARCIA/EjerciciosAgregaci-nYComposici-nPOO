@@ -61,6 +61,8 @@ eliminarciudad(ciudad_eliminada)
 ````
 
 UML:
+
+
 ![image](https://user-images.githubusercontent.com/91721860/160932915-b33c487d-0238-439b-aab2-ae4287807a2e.png)
 
 
@@ -87,6 +89,9 @@ print("?")
 # salta "yang" pues no se le hace referencia
 
 ````
+
+UML:
+
 
 ![image](https://user-images.githubusercontent.com/91721860/160933379-403c1da5-19f4-49d1-be17-07cf70819489.png)
 
@@ -141,6 +146,8 @@ class interfaz_cristal():
 
    ````
 
-   
+UML:
+
+
 ![image](https://user-images.githubusercontent.com/91721860/160934128-bb6372c3-ae86-4146-b927-eedfecba57f9.png)
 
