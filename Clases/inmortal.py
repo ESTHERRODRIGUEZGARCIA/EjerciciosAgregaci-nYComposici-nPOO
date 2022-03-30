@@ -1,6 +1,6 @@
 class Yin: pass 
 class Yang: 
-    def __del__(self): 
+    def __del__(self): # atributo privado
         print("Yang destruido") 
  
 yin = Yin() 
@@ -13,5 +13,5 @@ del(yang)
 
 print("?")
 
-#nos devuelve Yang destruido ? 
+#nos devuelve Yang destruido ?
 # salta "yang" pues no se le hace referencia
