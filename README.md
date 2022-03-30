@@ -60,6 +60,10 @@ eliminarciudad(ciudad_eliminada)
 
 ````
 
+UML:
+![image](https://user-images.githubusercontent.com/91721860/160932915-b33c487d-0238-439b-aab2-ae4287807a2e.png)
+
+
 # b. ¿Inmortal?
 Enunciado: Teniendo en cuenta el siguiente código, explique por qué el mensaje Yang destruido, se muestra después del signo de interrogación. ¿Qué hay que hacer para que aparezca antes?
 
