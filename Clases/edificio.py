@@ -45,3 +45,4 @@ lista_ciudades = [ciudad1, ciudad2, ciudad3]
 ciudad_eliminada = str(input("¿Qué ciudad desea eliminar? LA NY1 NY2"))
 
 eliminarciudad(ciudad_eliminada)
+
