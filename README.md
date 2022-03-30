@@ -142,3 +142,5 @@ class interfaz_cristal():
    ````
 
    
+![image](https://user-images.githubusercontent.com/91721860/160934128-bb6372c3-ae86-4146-b927-eedfecba57f9.png)
+
