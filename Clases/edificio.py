@@ -29,8 +29,6 @@ def eliminarciudad(ciudad_eliminada):
             del(i)
 
 
-
-
 class empleados():
     def __init__(self, nombre) -> None:
         self.nombre = nombre
