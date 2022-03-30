@@ -13,3 +13,5 @@ del(yang)
 
 print("?")
 
+#nos devuelve Yang destruido ? 
+# salta "yang" pues no se le hace referencia
