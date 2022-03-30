@@ -88,6 +88,7 @@ print("?")
 
 ````
 
+![image](https://user-images.githubusercontent.com/91721860/160933379-403c1da5-19f4-49d1-be17-07cf70819489.png)
 
 
 # c. Alternativa a la herencia múltiple
