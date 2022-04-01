@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net" modified="2022-03-30T21:29:51.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="VOVGrRX6a6hNJIr7v81W" version="17.1.4" type="github">
+  <diagram id="uF-sCX4Y7Ki6k6R1pBFB" name="Page-1">
+    <mxGraphModel dx="731" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCFF99" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YpbZ2NxtwHmoxFjT7qbh-1" value="interfaz_crsital" style="swimlane;startSize=40;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="70" width="280" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="YpbZ2NxtwHmoxFjT7qbh-2" value="&lt;br&gt;casa: diccionario&lt;br&gt;&lt;br&gt;--------------------------------------------&lt;br&gt;&lt;br&gt;Paredes (orientacion:lista)&lt;br&gt;Ventana(casa, ventanas: lista de listas)&lt;br&gt;Superficie(lista dimensiones)&lt;br&gt;ParedCortina(orientacion:lista, tamaño:int)&lt;br&gt;ComprobarProteccion(orientacion:lista)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YpbZ2NxtwHmoxFjT7qbh-1">
+          <mxGeometry x="20" y="55" width="180" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

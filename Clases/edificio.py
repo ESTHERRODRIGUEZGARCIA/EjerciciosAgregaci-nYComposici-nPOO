@@ -29,8 +29,6 @@ def eliminarciudad(ciudad_eliminada):
             del(i)
 
 
-
-
 class empleados():
     def __init__(self, nombre) -> None:
         self.nombre = nombre
@@ -42,7 +40,7 @@ ciudad2 = ciudad("B", "NY2", lista_empleados)
 ciudad3 = ciudad("C", "LA", lista_empleados)
 lista_ciudades = [ciudad1, ciudad2, ciudad3]
 
-ciudad_eliminada = str(input("¿Qué ciudad desea eliminar? LA NY1 NY2"))
+ciudad_eliminada = str(input("¿Qué ciudad desea eliminar? Introduzca sus iniciales: \nLA (Los Ángeles) NY1 (Nueva York 1) NY2 (Nueva York 2"))
 
 eliminarciudad(ciudad_eliminada)
 
